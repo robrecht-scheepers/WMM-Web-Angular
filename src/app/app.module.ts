@@ -10,6 +10,8 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { SettingsComponent } from './components/settings/settings.component';
 import { SettingsSidebarComponent } from './components/settings-sidebar/settings-sidebar.component';
 import { SettingsMainAreaComponent } from './components/settings-main-area/settings-main-area.component';
+import { AppRoutingModule } from './app-routing.module';
+import { NotFoundComponent } from './components/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -21,10 +23,12 @@ import { SettingsMainAreaComponent } from './components/settings-main-area/setti
     DashboardComponent,
     SettingsComponent,
     SettingsSidebarComponent,
-    SettingsMainAreaComponent
+    SettingsMainAreaComponent,
+    NotFoundComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
