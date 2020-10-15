@@ -12,6 +12,7 @@ import { SettingsSidebarComponent } from './components/settings-sidebar/settings
 import { SettingsMainAreaComponent } from './components/settings-main-area/settings-main-area.component';
 import { AppRoutingModule } from './app-routing.module';
 import { NotFoundComponent } from './components/not-found/not-found.component';
+import { TransactionAddComponent } from './components/transaction-add/transaction-add.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { NotFoundComponent } from './components/not-found/not-found.component';
     SettingsComponent,
     SettingsSidebarComponent,
     SettingsMainAreaComponent,
-    NotFoundComponent
+    NotFoundComponent,
+    TransactionAddComponent
   ],
   imports: [
     BrowserModule,
